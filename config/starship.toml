@@ -1,0 +1,102 @@
+#Location: ~/.config/starship.toml
+# Theme colors managed by ~/.config/colors/switch-theme.sh
+
+add_newline = true
+command_timeout = 2000
+
+format = """$env_var$os$username$hostname$kubernetes$directory$git_branch$git_status$python
+$character
+"""
+
+[character]
+# Use a connector arrow so the prompt line connects visually to the input
+success_symbol = "╰─➜"
+error_symbol = "╰─➜"
+
+[env_var]
+symbol = "╭╴"
+variable = 'SHELL'
+format = "$symbol"
+disabled = false
+
+[os]
+format = '[$symbol](bold white) '   
+disabled = false
+
+[os.symbols]
+Windows = ' '
+Arch = '󰣇'
+Ubuntu = ''
+Macos = '󰀵'
+Unknown = '󰠥'
+
+[username]
+style_user = 'bold #5E81AC'
+style_root = 'bold #BF616A'
+format = '[//](#D8DEE9) [$user](bold #88C0D0) '
+disabled = false
+show_always = true
+
+[hostname]
+ssh_only = false
+format = '[//](#D8DEE9) [$hostname](bold #88C0D0) '
+disabled = false
+
+[directory]
+truncation_length = 0
+truncation_symbol = '…/'
+# Set a Nerd Font home glyph so home displays correctly when using a Nerd Font
+home_symbol = ''
+read_only = '  '
+# Use PRIMARY_LIGHT for directory/path to make folders the light blue accent
+format = '[//](#D8DEE9) [$path](bold #88C0D0)[$read_only]($read_only_style) '
+style = 'bold #88C0D0'
+
+[git_branch]
+symbol = ' '
+format = '[//](#D8DEE9) [$symbol\[$branch\]](bold #A3BE8C) '
+style = 'bold #A3BE8C'
+
+[git_status]
+disabled = true
+format = '[ $all_status $ahead_behind](bold #BF616A) '
+style = 'bold #BF616A'
+conflicted = '🏳'
+up_to_date = ''
+untracked = ' '
+ahead = '⇡${count}'
+diverged = '⇕⇡${ahead_count}⇣${behind_count}'
+behind = '⇣${count}'
+stashed = ' '
+modified = ' '
+staged = '[++\($count\)](green)'
+renamed = '襁 '
+deleted = ' '
+
+[kubernetes]
+format = 'via [󱃾 $context\($namespace\)](bold purple) '
+disabled = false
+
+[vagrant]
+disabled = true
+
+[docker_context]
+disabled = true
+
+[helm]
+disabled = true
+
+[python]
+symbol = '󰌠'
+python_binary = ['./venv/bin/python', 'python', 'python3', 'python2']
+format = '[//](#D8DEE9) [${symbol} ${pyenv_prefix}(${version} )(\($virtualenv\) )](bold #88C0D0) '
+style = 'bold #88C0D0'
+
+[nodejs]
+disabled = true
+
+[ruby]
+disabled = true
+
+[terraform]
+disabled = true

@@ -1,0 +1,85 @@
+# btop theme - Generated from BloodMoon
+
+# Main background, empty for terminal default
+theme[main_bg]=""
+
+# Main text color
+theme[main_fg]="#F0F0F0"
+
+# Title color for boxes
+theme[title]="#FF3333"
+
+# Highlight color for keyboard shortcuts
+theme[hi_fg]="#FF0000"
+
+# Background color of selected item in processes box
+theme[selected_bg]="#262626"
+
+# Foreground color of selected item in processes box
+theme[selected_fg]="#F0F0F0"
+
+# Color of inactive/disabled text
+theme[inactive_fg]="#CCCCCC"
+
+# Misc colors for processes box including mini cpu graphs, details memory graph and details status text
+theme[proc_misc]="#FF3333"
+
+# Cpu box outline color
+theme[cpu_box]="#CC0000"
+
+# Memory/disks box outline color
+theme[mem_box]="#CC0000"
+
+# Net up/down box outline color
+theme[net_box]="#CC0000"
+
+# Processes box outline color
+theme[proc_box]="#CC0000"
+
+# Box divider line and small boxes line color
+theme[div_line]="#262626"
+
+# Temperature graph colors
+theme[temp_start]="#00FF00"
+theme[temp_mid]="#FFAA00"
+theme[temp_end]="#FF0000"
+
+# CPU graph colors
+theme[cpu_start]="#CC0000"
+theme[cpu_mid]="#FF3333"
+theme[cpu_end]="#FF5555"
+
+# Mem/Disk free meter
+theme[free_start]="#00FF00"
+theme[free_mid]=""
+theme[free_end]="#00FF00"
+
+# Mem/Disk cached meter
+theme[cached_start]="#FF6666"
+theme[cached_mid]=""
+theme[cached_end]="#FF6666"
+
+# Mem/Disk available meter
+theme[available_start]="#FF3333"
+theme[available_mid]=""
+theme[available_end]="#FF3333"
+
+# Mem/Disk used meter
+theme[used_start]="#FFAA00"
+theme[used_mid]="#FF0000"
+theme[used_end]="#FF0000"
+
+# Download graph colors
+theme[download_start]="#00FF00"
+theme[download_mid]=""
+theme[download_end]="#00FF00"
+
+# Upload graph colors
+theme[upload_start]="#FF3333"
+theme[upload_mid]=""
+theme[upload_end]="#FF5555"
+
+# Process box color gradient for threads, mem and cpu usage
+theme[process_start]="#CC0000"
+theme[process_mid]="#FF3333"
+theme[process_end]="#FF5555"

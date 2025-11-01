@@ -1,0 +1,58 @@
+# lsd colors - Generated from Nordic theme
+# Using xterm-256 indices (fallback)
+user: 109
+group: 174
+permission:
+  read: 151
+  write: 223
+  exec: 174
+  exec-sticky: 180
+  no-access: 189
+  octal: 189
+  acl: 152
+  context: 152
+date:
+  hour-old: 231
+  day-old: 189
+  older: 189
+size:
+  none: 189
+  small: 151
+  medium: 223
+  large: 174
+inode:
+  valid: 189
+  invalid: 174
+links:
+  valid: 174
+  invalid: 174
+tree-edge: 189
+git-status:
+  default: 231
+  unmodified: 231
+  ignored: 189
+  new-in-index: 151
+  new-in-workdir: 151
+  typechange: 223
+  deleted: 174
+  renamed: 174
+  modified: 223
+  conflicted: 180
+file-type:
+  file:
+    exec-uid: 223
+    uid-no-exec: 223
+    exec-no-uid: 174
+    no-exec-no-uid: 231
+  dir:
+    uid: 109
+    no-uid: 109
+  pipe: 223
+  symlink:
+    default: 174
+    broken: 174
+    missing-target: 174
+  block-device: 223
+  char-device: 223
+  socket: 152
+  special: 223

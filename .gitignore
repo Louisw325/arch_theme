@@ -1,0 +1,22 @@
+# Ignore exported local configs and secrets by default
+config/private/
+config/*.secret
+
+# Editor and OS artifacts
+.vscode/
+.idea/
+__pycache__/
+*.pyc
+*.swp
+.DS_Store
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Node modules
+node_modules/
+
+# Archives and large files
+*.tar.gz
+*.zip
+*.bak
