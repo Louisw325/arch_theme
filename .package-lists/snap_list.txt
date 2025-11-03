@@ -1,0 +1,10 @@
+Name               Version                         Rev    Tracking       Publisher     Notes
+bare               1.0                             5      latest/stable  canonical**   base
+copilot-desktop    0.5.0                           56     latest/stable  ken-vandine*  -
+core22             20250923                        2139   latest/stable  canonical**   base
+core24             20251001                        1225   latest/stable  canonical**   base
+gnome-46-2404      0+git.4ca00c0-sdk0+git.df43897  125    latest/stable  canonical**   -
+gtk-common-themes  0.1-81-g442e511                 1535   latest/stable  canonical**   -
+kf5-core22         5.116.0                         3      latest/stable  kde**         -
+mesa-2404          24.2.8-snap185                  912    latest/stable  canonical**   -
+snapd              2.72                            25577  latest/stable  canonical**   snapd
